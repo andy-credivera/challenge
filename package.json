@@ -1,12 +1,18 @@
 {
-  "name": "react-template",
+  "name": "challenge",
   "private": true,
   "version": "0.0.0",
+  "scripts": {
+    "start-sql": "node sql-challenge-1/index.js",
+    "start-react": "vite react-challenge-1"
+  },
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
