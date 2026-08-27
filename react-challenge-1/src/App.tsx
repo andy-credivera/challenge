@@ -33,7 +33,7 @@ const initialData: Todo[] = [
   },
   {
     id: uuid(),
-    label: "Ace CoderPad interview",
+    label: "Ace challenge interview",
     checked: true,
   },
 ];

@@ -11,5 +11,5 @@ export default defineConfig({
     },
   },
   plugins: [react()],
-  customLogger: createLogger('info', { prefix: '[coderpad]' }),
+  customLogger: createLogger('info', { prefix: '[challenge]' }),
 })
